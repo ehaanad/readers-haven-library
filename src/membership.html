@@ -3,10 +3,357 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Readers' Haven</title>
+    <meta name="description" content="Join Readers' Haven. Compare membership plans, pricing, and benefits, and find the reading pass that suits you.">
+    <meta name="theme-color" content="#101b2d">
+    <title>Membership | Readers' Haven</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
-    <h1>Readers' Haven Public Library</h1>
+
+<body id="top">
+
+    <!-- GLOBAL NAVIGATION -->
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+
+            <a href="index.html" class="brand">
+                <span class="brand-icon">R</span>
+                <span class="brand-name">
+                    READERS'<strong>HAVEN</strong>
+                    <small>THE WORLD OF STORIES</small>
+                </span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+            <label for="nav-toggle" class="nav-toggle-label"
+                   aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="collections.html" class="nav-link">Collections</a>
+                <a href="membership.html" class="nav-link active" aria-current="page">Membership</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="#plans" class="nav-cta">
+                    Join the Haven <span>↗</span>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="membership-hero">
+            <div class="membership-container membership-hero-inner">
+                <div class="membership-eyebrow">
+                    <span class="membership-eyebrow-line"></span>
+                    MEMBERSHIP
+                </div>
+
+                <h1>
+                    Belong to a place
+                    <span>built for readers.</span>
+                </h1>
+
+                <p class="membership-hero-text">
+                    One card opens every shelf, every event, and every quiet
+                    corner of the Haven. Choose the plan that fits the way you read.
+                </p>
+
+                <div class="membership-hero-actions">
+                    <a href="#plans" class="membership-button membership-button-primary">
+                        Compare Plans <span>↓</span>
+                    </a>
+                    <a href="contact.html" class="membership-button membership-button-outline">
+                        Ask a Librarian
+                    </a>
+                </div>
+
+                <ul class="membership-hero-stats">
+                    <li><strong>120k+</strong> titles to borrow</li>
+                    <li><strong>8,400</strong> active members</li>
+                    <li><strong>40+</strong> events each month</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PLANS & PRICING -->
+        <section class="membership-plans membership-section" id="plans">
+            <div class="membership-container">
+
+                <div class="membership-section-head">
+                    <div class="membership-label">PLANS &amp; PRICING</div>
+                    <h2 class="membership-heading">
+                        Pick your <span>chapter.</span>
+                    </h2>
+                    <p>
+                        Every plan includes a library card, access to our reading
+                        rooms, and the digital catalogue. Upgrade or cancel at any time.
+                    </p>
+                </div>
+
+                <div class="membership-plan-grid">
+
+                    <article class="membership-plan">
+                        <div class="membership-plan-top">
+                            <span class="membership-plan-tag">01 / READER</span>
+                            <h3>Reader</h3>
+                            <p>For the casual browser and weekend reader.</p>
+                        </div>
+
+                        <div class="membership-price">
+                            <span class="membership-currency">$</span>0
+                            <small>/ month</small>
+                        </div>
+
+                        <ul class="membership-features">
+                            <li>Borrow up to 5 books at a time</li>
+                            <li>3-week loan period</li>
+                            <li>Reading room access</li>
+                            <li>Digital catalogue &amp; e-book app</li>
+                            <li>Monthly newsletter</li>
+                        </ul>
+
+                        <a href="contact.html" class="membership-button membership-button-dark">
+                            Get a Free Card
+                        </a>
+                    </article>
+
+                    <article class="membership-plan membership-plan-featured">
+                        <span class="membership-badge">MOST POPULAR</span>
+
+                        <div class="membership-plan-top">
+                            <span class="membership-plan-tag">02 / SCHOLAR</span>
+                            <h3>Scholar</h3>
+                            <p>For students, researchers, and avid readers.</p>
+                        </div>
+
+                        <div class="membership-price">
+                            <span class="membership-currency">$</span>9
+                            <small>/ month</small>
+                        </div>
+
+                        <ul class="membership-features">
+                            <li>Borrow up to 15 books at a time</li>
+                            <li>6-week loan period &amp; free renewals</li>
+                            <li>Bookable study rooms (10 hrs/month)</li>
+                            <li>Research databases &amp; journals</li>
+                            <li>Priority holds on new releases</li>
+                            <li>Free entry to workshops</li>
+                        </ul>
+
+                        <a href="contact.html" class="membership-button membership-button-primary">
+                            Become a Scholar <span>↗</span>
+                        </a>
+                    </article>
+
+                    <article class="membership-plan">
+                        <div class="membership-plan-top">
+                            <span class="membership-plan-tag">03 / PATRON</span>
+                            <h3>Patron</h3>
+                            <p>For families and lifelong supporters of the Haven.</p>
+                        </div>
+
+                        <div class="membership-price">
+                            <span class="membership-currency">$</span>19
+                            <small>/ month</small>
+                        </div>
+
+                        <ul class="membership-features">
+                            <li>Unlimited borrowing for up to 4 cards</li>
+                            <li>No late fees, ever</li>
+                            <li>Unlimited study room bookings</li>
+                            <li>Members-only author evenings</li>
+                            <li>Home delivery of reserved books</li>
+                            <li>Name on our Patrons' Wall</li>
+                        </ul>
+
+                        <a href="contact.html" class="membership-button membership-button-dark">
+                            Become a Patron
+                        </a>
+                    </article>
+
+                </div>
+
+                <p class="membership-note">
+                    Students and seniors save 30% on the Scholar plan. Annual billing gets two months free.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- BENEFITS -->
+        <section class="membership-benefits membership-section">
+            <div class="membership-container">
+
+                <div class="membership-section-head">
+                    <div class="membership-label">WHY JOIN</div>
+                    <h2 class="membership-heading">
+                        More than a <span>library card.</span>
+                    </h2>
+                </div>
+
+                <div class="membership-benefit-grid">
+                    <div class="membership-benefit">
+                        <span class="membership-benefit-icon">✦</span>
+                        <h3>Endless shelves</h3>
+                        <p>Fiction, non-fiction, rare editions, and a growing digital library you can take anywhere.</p>
+                    </div>
+
+                    <div class="membership-benefit">
+                        <span class="membership-benefit-icon">⌘</span>
+                        <h3>Quiet spaces</h3>
+                        <p>Reading rooms, study pods, and group spaces designed for deep focus.</p>
+                    </div>
+
+                    <div class="membership-benefit">
+                        <span class="membership-benefit-icon">✧</span>
+                        <h3>Events &amp; clubs</h3>
+                        <p>Book clubs, author talks, writing circles, and children's story hours every week.</p>
+                    </div>
+
+                    <div class="membership-benefit">
+                        <span class="membership-benefit-icon">◎</span>
+                        <h3>Expert help</h3>
+                        <p>Our librarians help with research, recommendations, and finding that one book.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- HOW TO JOIN -->
+        <section class="membership-steps membership-section">
+            <div class="membership-container">
+
+                <div class="membership-section-head">
+                    <div class="membership-label">HOW TO JOIN</div>
+                    <h2 class="membership-heading">
+                        Three steps to <span>your first book.</span>
+                    </h2>
+                </div>
+
+                <ol class="membership-step-list">
+                    <li>
+                        <span class="membership-step-number">01</span>
+                        <h3>Choose a plan</h3>
+                        <p>Start free with Reader, or pick Scholar or Patron for more.</p>
+                    </li>
+                    <li>
+                        <span class="membership-step-number">02</span>
+                        <h3>Register</h3>
+                        <p>Visit the front desk with a photo ID, or send us your details online.</p>
+                    </li>
+                    <li>
+                        <span class="membership-step-number">03</span>
+                        <h3>Start reading</h3>
+                        <p>Collect your card and borrow your first book the same day.</p>
+                    </li>
+                </ol>
+
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="membership-faq membership-section">
+            <div class="membership-container membership-faq-layout">
+
+                <div>
+                    <div class="membership-label">QUESTIONS</div>
+                    <h2 class="membership-heading">
+                        Good to <span>know.</span>
+                    </h2>
+                </div>
+
+                <div class="membership-faq-list">
+                    <details class="membership-faq-item">
+                        <summary>Can I change my plan later?</summary>
+                        <p>Yes. You can upgrade or downgrade at any time, and changes take effect from your next billing date.</p>
+                    </details>
+
+                    <details class="membership-faq-item">
+                        <summary>What do I need to register?</summary>
+                        <p>A valid photo ID and proof of address. Children under 16 can join with a parent or guardian.</p>
+                    </details>
+
+                    <details class="membership-faq-item">
+                        <summary>Is there a contract?</summary>
+                        <p>No. Monthly plans can be cancelled whenever you like, with no cancellation fee.</p>
+                    </details>
+
+                    <details class="membership-faq-item">
+                        <summary>Can I give membership as a gift?</summary>
+                        <p>Absolutely. Gift cards for any paid plan are available at the front desk.</p>
+                    </details>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="membership-cta-section membership-section">
+            <div class="membership-container">
+                <div class="membership-cta">
+                    <div>
+                        <div class="membership-label membership-label-light">YOUR STORY STARTS HERE</div>
+                        <h2>Ready to <span>turn the page?</span></h2>
+                        <p>Join thousands of readers who call the Haven home.</p>
+                    </div>
+
+                    <div class="membership-cta-actions">
+                        <a href="#plans" class="membership-button membership-button-primary">
+                            Choose a Plan <span>↗</span>
+                        </a>
+                        <a href="contact.html" class="membership-button membership-button-outline">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- GLOBAL FOOTER -->
+    <footer class="site-footer">
+        <div class="home-container">
+
+            <div class="footer-main">
+                <a href="index.html" class="brand footer-brand">
+                    <span class="brand-icon">R</span>
+                    <span class="brand-name">
+                        READERS'<strong>HAVEN</strong>
+                        <small>THE WORLD OF STORIES</small>
+                    </span>
+                </a>
+
+                <p>
+                    Discover new worlds.<br>
+                    One page at a time.
+                </p>
+
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="membership.html">Membership</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Readers' Haven Public Library.</span>
+                <a href="#top">BACK TO TOP ↑</a>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 </html>
