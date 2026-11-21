@@ -1,12 +1,288 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Readers' Haven</title>
+    <meta name="description" content="Explore the Readers' Haven library collections, from fiction and mystery to science, history and personal growth.">
+    <meta name="theme-color" content="#101b2d">
+    <title>Collections | Readers' Haven</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
-    <h1>Readers' Haven Public Library</h1>
+
+<body id="top">
+
+    <!-- SHARED NAVBAR -->
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+
+            <a href="index.html" class="brand">
+                <span class="brand-icon">R</span>
+                <span class="brand-name">
+                    READERS'<strong>HAVEN</strong>
+                    <small>THE WORLD OF STORIES</small>
+                </span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+            <label for="nav-toggle" class="nav-toggle-label"
+                   aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="collections.html" class="nav-link active">Collections</a>
+                <a href="membership.html" class="nav-link">Membership</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="membership.html" class="nav-cta">
+                    Join the Haven <span>↗</span>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="collections-page">
+
+        <!-- HERO SECTION -->
+        <section class="collections-hero">
+            <div class="collections-container">
+                <span class="collections-eyebrow">
+                    DISCOVER YOUR NEXT CHAPTER
+                </span>
+
+                <h1>
+                    Explore our
+                    <span>collections.</span>
+                </h1>
+
+                <p>
+                    From unforgettable stories to inspiring ideas,
+                    discover a world of books waiting to be explored.
+                </p>
+
+                <a href="#collections-grid" class="collections-button">
+                    Discover Collections <span>↓</span>
+                </a>
+
+                <div class="collections-hero-note">
+                    A WORLD OF KNOWLEDGE. ENDLESS POSSIBILITIES.
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section class="collections-intro">
+            <div class="collections-container collections-intro-layout">
+
+                <div>
+                    <span class="collections-section-label">
+                        FIND YOUR NEXT FAVOURITE
+                    </span>
+
+                    <h2>
+                        Every interest has
+                        <span>a place here.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Whether you love thrilling mysteries, timeless
+                    literature, scientific discoveries or personal
+                    development, our collections bring together
+                    something for every curious mind.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- COLLECTION CARDS -->
+        <section class="collections-library" id="collections-grid">
+            <div class="collections-container">
+
+                <div class="collections-heading">
+                    <span class="collections-section-label">
+                        THE LIBRARY CATALOGUE
+                    </span>
+                    <h2>Explore by <span>interest.</span></h2>
+                    <p>
+                        Find the stories, knowledge and inspiration
+                        that speak to you.
+                    </p>
+                </div>
+
+                <div class="collections-grid">
+
+                    <article class="collections-card collections-fiction">
+                        <span class="collections-card-number">01 / STORIES</span>
+                        <div class="collections-card-icon">✧</div>
+                        <div class="collections-card-content">
+                            <span class="collections-card-category">IMAGINATION</span>
+                            <h3>Fiction & Literature</h3>
+                            <p>
+                                Discover captivating stories,
+                                unforgettable characters and timeless classics.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="collections-card collections-mystery">
+                        <span class="collections-card-number">02 / SUSPENSE</span>
+                        <div class="collections-card-icon">⌕</div>
+                        <div class="collections-card-content">
+                            <span class="collections-card-category">THE UNKNOWN</span>
+                            <h3>Mystery & Thriller</h3>
+                            <p>
+                                Uncover hidden secrets and follow
+                                thrilling journeys full of surprises.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="collections-card collections-romance">
+                        <span class="collections-card-number">03 / EMOTION</span>
+                        <div class="collections-card-icon">♡</div>
+                        <div class="collections-card-content">
+                            <span class="collections-card-category">CONNECTION</span>
+                            <h3>Romance & Relationships</h3>
+                            <p>
+                                Explore heartfelt stories about
+                                love, friendship and human connection.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="collections-card collections-science">
+                        <span class="collections-card-number">04 / DISCOVERY</span>
+                        <div class="collections-card-icon">⌘</div>
+                        <div class="collections-card-content">
+                            <span class="collections-card-category">KNOWLEDGE</span>
+                            <h3>Science & Technology</h3>
+                            <p>
+                                Explore scientific ideas, innovation
+                                and the wonders of our universe.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="collections-card collections-history">
+                        <span class="collections-card-number">05 / HERITAGE</span>
+                        <div class="collections-card-icon">◈</div>
+                        <div class="collections-card-content">
+                            <span class="collections-card-category">THE PAST</span>
+                            <h3>History & Culture</h3>
+                            <p>
+                                Travel through time and discover
+                                civilizations, cultures and events.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="collections-card collections-growth">
+                        <span class="collections-card-number">06 / INSPIRATION</span>
+                        <div class="collections-card-icon">✦</div>
+                        <div class="collections-card-content">
+                            <span class="collections-card-category">PERSONAL DEVELOPMENT</span>
+                            <h3>Personal Growth</h3>
+                            <p>
+                                Find practical wisdom and fresh
+                                perspectives to help you grow.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CLOSING SECTION -->
+        <section class="collections-quote">
+            <div class="collections-container">
+                <span class="collections-quote-mark">“</span>
+
+                <h2>
+                    The right book can
+                    <span>change everything.</span>
+                </h2>
+
+                <p>
+                    Your next great discovery is only one page away.
+                </p>
+            </div>
+        </section>
+
+        <!-- MEMBERSHIP CTA -->
+        <section class="collections-cta">
+            <div class="collections-container">
+                <div class="collections-cta-panel">
+
+                    <div>
+                        <span class="collections-section-label">
+                            BECOME PART OF OUR COMMUNITY
+                        </span>
+
+                        <h2>
+                            Your next chapter
+                            <span>starts here.</span>
+                        </h2>
+
+                        <p>
+                            Join Readers' Haven and make every reading
+                            experience more meaningful.
+                        </p>
+
+                        <a href="membership.html" class="collections-button">
+                            Explore Membership <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="collections-cta-decoration">R</div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SHARED FOOTER -->
+    <footer class="site-footer">
+        <div class="home-container">
+
+            <div class="footer-main">
+                <a href="index.html" class="brand footer-brand">
+                    <span class="brand-icon">R</span>
+                    <span class="brand-name">
+                        READERS'<strong>HAVEN</strong>
+                        <small>THE WORLD OF STORIES</small>
+                    </span>
+                </a>
+
+                <p>
+                    Discover new worlds.<br>
+                    One page at a time.
+                </p>
+
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="membership.html">Membership</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Readers' Haven Public Library.</span>
+                <a href="#top">BACK TO TOP ↑</a>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 </html>
