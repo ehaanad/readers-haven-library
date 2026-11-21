@@ -1,0 +1,14 @@
+{
+  "name": "readers-haven-library",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/*.html --dist-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
